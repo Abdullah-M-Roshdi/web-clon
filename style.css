@@ -1573,7 +1573,7 @@ footer p {
     color: var(--my-color-white);
     line-height: 1.5em;
     font-weight: 600;
-    max-width: ;width: 45%;
+    width: 45%;
     padding-bottom: 40px;
 }
 footer i {
