@@ -1,0 +1,1589 @@
+:root {
+    --my-background-color:  black;
+    --my-bar-color:  rgba(0, 0, 0, 0.918);
+    --my-color-primary: #5CD2B9;
+    --my-color-secondary: #0C0C0C;
+    --my-color-text: #AAAAAA;
+    --my-color-white: #ffffffef;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:var(--my-bar-color);
+    width: 100% ;
+    height: 110px;
+}
+.logo {
+    width: 210px;
+    height: 100%;
+    margin-right: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baritem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30px;
+    color: var(--my-color-white);
+    font-size: 16px;
+    font-weight: bold;
+}
+.fa-magnifying-glass {
+    color: var(--my-color-primary);
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.fristsection {
+    background-image:linear-gradient(to right, #00000085 50%, #3c5f5a7a 100%), url(https://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/portrait-of-a-woman-with-artistic-make-up-P7ZSU5P.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    filter: brightness(150%);
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.CREATIVEAGENCY {
+    color: var(--my-color-primary);
+    filter: brightness(70%);
+    font-size: 18px;
+    font-weight: 600;
+    font-weight: bold;
+    position: absolute;
+    top: 52px;
+    left: 115px;
+    word-spacing: 3px;
+    line-height: 1.5;
+    letter-spacing: 4px;
+}
+.WEARE {
+    position: absolute;
+    top: 97px;
+    left: 115px;
+    color: var(--my-color-white);
+    display: flex;
+    font-size: 75px;
+    flex-wrap: wrap;
+    width: 50%;
+    word-spacing: 3px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    line-height: 1;
+    font-weight: bold;
+}
+.CREATIVE {
+    color: var(--my-color-primary);
+    filter: brightness(70%);
+    padding-left: 20px;
+}
+.hr1 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 7.5%;
+    position: absolute;
+    top: 270px;
+    left: 115px;
+    height: 3px;
+}
+.ditalspragraf {
+    color: var(--my-color-text);
+    position: absolute;
+    top: 290px;
+    left: 115px;
+    width: 39%;
+    font-size: 15px;
+    word-spacing: 0px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    filter: brightness(70%);
+}
+.aboutus {
+    display: flex;
+}
+.fa-play {
+    color: var(--my-color-white);
+    font-size: 21px;
+    position: absolute;
+    top: 420px;
+    left: 125px;
+    background-color: var(--my-color-primary);
+    filter: brightness(70%);
+    padding: 25px 30px;
+    border-radius: 50%;
+}
+.aboutus1 {
+    position: absolute;
+    top: 425px;
+    left: 230px;
+    color: var(--my-color-white);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4.5px;
+}
+.aboutus2 {
+    position: absolute;
+    top: 455px;
+    left: 230px;
+    background-color: var(--my-color-text);
+    filter: brightness(10%);
+    width: 120PX;
+}
+.aboutus3 {
+    position: absolute;
+    top: 465px;
+    left: 230px;
+    color: var(--my-color-primary);
+    filter: brightness(70%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.OURSERVICES {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--my-background-color);
+}
+.OURSERVICES h5 {
+    color: var(--my-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: 5px;
+    line-height: 2;
+    letter-spacing: 3.5px;
+    position: absolute;
+    top: 110px;
+    left: 115px;
+}
+.OURSERVICES h1 {
+    position: absolute;
+    top: 155px;
+    left: 115px;
+    color: var(--my-color-white);
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+}
+.do {
+    color: var(--my-color-primary);
+    padding-left: 10px;
+}
+.hr2 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 7.5%;
+    position: absolute;
+    top: 250px;
+    left: 115px;
+    height: 3px;
+}
+.OURSERVICES p {
+    position: absolute;
+    top: 270px;
+    left: 115px;
+    color: var(--my-color-text);
+    width: 400px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.OURSERVICES .pdo {
+    position: absolute;
+    top: 380px;
+    left: 115px;
+    color: var(--my-color-text);
+    width: 400px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.OURSERVICES .VIEWALL {
+    position: absolute;
+    top: 490px;
+    left: 115px;
+    color: var(--my-color-white);
+    background-color: var(--my-color-primary);
+    width: 130px;
+    height: 60px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.BrandIdentity {
+    position: absolute;
+    top: 70px;
+    left: 590px;
+    background-color:#161515a4;
+    width: 300px;
+    height: 220px;
+}
+.BrandIdentity img {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.BrandIdentity h4{
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%); 
+    color: var(--my-color-white);
+    font-size: 24px;
+    width: 100%;
+}
+.BrandIdentity .Webring {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+}
+.UI {
+    position: absolute;
+    top: 310px;
+    left: 590px;
+    background-color:var(--my-background-color);
+    background: linear-gradient(to bottom, #00000085 5%, #457763ab 100%);
+    width: 300px;
+    height: 250px;
+}
+
+.UI img {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.UI h4{
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%); 
+    color: var(--my-color-white);
+    font-size: 24px;
+    width: 100%;
+}
+.UI .Webring {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+}
+.WebsiteDesign {
+    position: absolute;
+    top: 80px;
+    left: 915px;
+    background-color:var(--my-background-color);
+    background: linear-gradient(to bottom, #00000085 5%, #457763ab 100%);
+    width: 300px;
+    height: 250px;
+}
+
+.WebsiteDesign img {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.WebsiteDesign h4{
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%); 
+    color: var(--my-color-white);
+    font-size: 24px;
+    width: 100%;
+}
+.WebsiteDesign .Webring {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+}
+.VideoMarketing {
+    position: absolute;
+    top: 350px;
+    left: 915px;
+    background-color:#161515a4;
+    width: 300px;
+    height: 240px;
+}
+.VideoMarketing img {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.VideoMarketing h4{
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%); 
+    color: var(--my-color-white);
+    font-size: 24px;
+    width: 100%;
+}
+.VideoMarketing .Webring {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.heartgirl {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--my-background-color);
+    position: relative;
+}
+.heartgirl img {
+    position: absolute;
+    left: 100px;
+}
+.heartgirl h5 {
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    color: var(--my-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: 1px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    line-height: 0px;
+}
+.heartgirl h1 {
+    position: absolute;
+    left: 600px;
+    top: 80px;
+    color: var(--my-color-white);
+    font-size: 55px;
+    font-weight: bold;
+    word-spacing: 5px;
+    line-height: 0px;
+    letter-spacing: 0px;
+    line-height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 80px;
+    width: 600px;
+}
+.heartgirl h1 div {
+    color: var(--my-color-primary);
+    padding-left:15px ;
+}
+.heartgirl h1 span {
+    padding-left:15px ;
+}
+.hr3 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 7.5%;
+    position: absolute;
+    left: 600px;
+    top: 220px;
+    height: 3px;
+}
+.heartgirl p {
+    color: var(--my-color-text);
+    position: absolute;
+    left: 600px;
+    top: 250px;
+    width: 650px;
+    word-spacing: 1px;
+    line-height: 0px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.Clean {
+    position: absolute;
+    left: 600px;
+    top: 360px;
+    display: flex;
+    width: 23%;
+    height: 100px;
+}
+.Clean img {
+    position: absolute;
+    left: 0px;
+}
+.Clean h4 {
+    color: var(--my-color-white);
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3em;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+.Clean .CleanCode {
+    color: var(--my-color-text);
+    position: absolute;
+    left: 80px;
+    top: 45px;
+    font-size: 15px;
+    width: 250px;
+}
+
+.Modern {
+    position: absolute;
+    left: 920px;
+    top: 360px;
+    display: flex;
+    width: 23%;
+    height: 100px;
+}
+.Modern img {
+    position: absolute;
+    left: 0px;
+}
+.Modern h4 {
+    color: var(--my-color-white);
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3em;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+.Modern .CleanCode {
+    color: var(--my-color-text);
+    position: absolute;
+    left: 80px;
+    top: 45px;
+    font-size: 15px;
+    width: 250px;
+}
+.ProjectDone {
+    height: 50vh;
+    width: 100%;
+    background-image:linear-gradient(to left, #00000085 1%, #3c5f5a7a 100%), url("https://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/1.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ProjectDone img {
+    padding-left: 15px;
+}
+.Projecticon {
+    display: flex;
+}
+.Projecticon p {
+    color: var(--my-color-primary);
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0px;
+    padding-left:10px ;
+}
+.Projecticon .fa-plus {
+    color: var(--my-color-white);
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 35px ;
+}
+.Project {
+    color: var(--my-color-white);
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+
+
+.LATEST {
+    max-width: auto;
+    height: 160vh;
+    background-color: var(--my-background-color);
+    position: relative;
+}
+.LATEST h5 {
+    color: var(--my-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    word-spacing: 0px;
+    position: absolute;
+    top: 145px;
+    left: 10%;
+}
+.LATEST h1 {
+    color: var(--my-color-white);
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    position: absolute;
+    top: 175px;
+    left: 10%;
+}
+.hr4 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 7.5%;
+    position: absolute;
+    top: 260px;
+    left: 10%;
+    height: 3px;
+}
+.LATEST p {
+    color: var(--my-color-text);
+    position: absolute;
+    top: 290px;
+    left: 10%;
+    width: 53%;
+    line-height: 1.8;
+    font-weight: 600;
+}
+.LATESTicon {
+    display: flex;
+}
+.fa-check{
+    color: var(--my-color-primary);
+    font-size: 20px;
+    position: absolute;
+    top: 400px;
+    left: 10%;
+}
+.LATESTicon p {
+    position: absolute;
+    top: 395px;
+    left: 13%;
+    color: var(--my-color-white);
+}
+.LATESTicon2 {
+    display: flex;
+}
+.LATESTicon2 .fa-check{
+    color: var(--my-color-primary);
+    font-size: 20px;
+    position: absolute;
+    top: 440px;
+    left: 10%;
+}
+.LATESTicon2 p {
+    position: absolute;
+    top: 435px;
+    left: 13%;
+    color: var(--my-color-white);
+}
+.whitehear {
+    position: absolute;
+    top: 14%;
+    left: 64%;
+}
+.bottel {
+    position: absolute;
+    top: 52%;
+    left: 8.5%;
+}
+
+
+
+
+
+
+.campany {
+    height: 35vh;
+    width: 100%;
+    background-image:linear-gradient(to right, #00000085 1%, #3c5f5a7a 100%), url("https://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+
+
+
+
+
+.WHYCHOOSEUS {
+    width: 100%;
+    height: 150vh;
+    background-color: var(--my-background-color);
+    position: relative;
+}
+.WHYCHOOSEUS h5 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: var(--my-color-primary);
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.WHYCHOOSEUS h1 {
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 1em;
+    color: var(--my-color-white);
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    display: flex;
+    text-align:left ;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.Experience {
+    color: var(--my-color-primary);
+    padding-left: 10px;
+}
+.WHYCHOOSEUS p {
+    font-size: 18px;
+    color: var(--my-color-text);
+    position: absolute;
+    top: 20%;
+    left: 51%;
+    width: 42%;
+    line-height: 1.5;
+}
+.WHYicon .fa-check {
+    font-size: 20px;
+    color: var(--my-color-secondary);
+    background-color: var(--my-color-primary);
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    top: 32%;
+    left: 51%;
+}
+.WHYicon .WHYiconp {
+    font-size: 18px;
+    color: var(--my-color-white);
+    font-weight: 500;
+    position: absolute;
+    top: 32%;
+    left: 54%;
+}
+.WHYicon2 .fa-check {
+    font-size: 20px;
+    color: var(--my-color-secondary);
+    background-color: var(--my-color-primary);
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    top: 37%;
+    left: 51%;
+}
+.WHYicon2 .WHYiconp {
+    font-size: 18px;
+    color: var(--my-color-white);
+    font-weight: 500;
+    position: absolute;
+    top: 37%;
+    left: 54%;
+}
+.studo {
+    position: absolute;
+    top: 43%;
+    left: 10%;
+}
+.girlwithglass {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+}
+.circle-play1 {
+    color: rgba(240, 248, 255, 0.767);
+    font-size: 95px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.circle-play2 {
+    color: rgba(240, 248, 255, 0.767);
+    font-size: 95px;
+    position: absolute;
+    top: 67%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.OURTEAM {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(to right , #00000085 0%, #0505057a 100% ) ,url(/imagess\ 4/Bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.OUR {
+    color: var(--my-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 11%;
+    left: 45.5%;
+}
+.OURTEAM h1{
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1em;
+    color: var(--my-color-white);
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    display: flex;
+}
+.hr5 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 7.5%;
+    position: absolute;
+    top: 23%;
+    left: 47%;
+    height: 3px;
+}
+.OURTEAM p {
+    color: var(--my-color-text);
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 62%;
+    line-height: 2em;
+    font-weight: 600;
+}
+.Team {
+    color: var(--my-color-primary);
+    padding-left: 10px;
+}
+.MikeWashoski {
+    position: absolute;
+    top: 39%;
+    left: 9%;
+    width: 40%;
+    height: 23%;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+}
+.MikeWashoskiimg img {
+    background-image: radial-gradient(at center center, #5CD2B9 0%, #02010100 40%);
+    position: absolute;
+    bottom: 1px;
+}
+.MikeWashoskiditals {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.MikeWashoskiditals h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: var(--my-color-white);
+    position: absolute;
+    left: 55%;
+    top: 10%;
+}
+.MikeWashoskiditals h6 {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: var(--my-color-primary);
+    position: absolute;
+    left: 55%;
+    top: 22%;
+}
+.MikeWashoskiditals p {
+    text-align: left;
+    width: 50%;
+    position: absolute;
+    left: 55%;
+    top: 38%;
+}
+.contacticon {
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    color: var(--my-color-primary);
+    padding-left: 0px;
+}
+.contacticon i {
+    padding-left: 15px;
+}
+
+.HannahSmith {
+    position: absolute;
+    top: 39%;
+    left: 52%;
+    width: 40%;
+    height: 23%;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+}
+.HannahSmith img {
+    background-image: radial-gradient(at center center, #5CD2B9 0%, #02010100 40%);
+    position: absolute;
+    bottom: 1px;
+}
+.HannahSmithditals {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.HannahSmithditals h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: var(--my-color-white);
+    position: absolute;
+    left: 55%;
+    top: 10%;
+}
+.HannahSmithditals h6 {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: var(--my-color-primary);
+    position: absolute;
+    left: 55%;
+    top: 22%;
+}
+.HannahSmithditals p {
+    text-align: left;
+    width: 50%;
+    position: absolute;
+    left: 55%;
+    top: 38%;
+}
+.contacticon {
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    color: var(--my-color-primary);
+    padding-left: 0px;
+}
+.contacticon i {
+    padding-left: 15px;
+}
+
+
+.LexiBlack {
+    position: absolute;
+    top: 66%;
+    left: 9%;
+    width: 40%;
+    height: 23%;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+}
+.LexiBlackimg img {
+    background-image: radial-gradient(at center center, #5CD2B9 0%, #02010100 40%);
+    position: absolute;
+    bottom: 1px;
+}
+.LexiBlackditals {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.LexiBlackditals h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: var(--my-color-white);
+    position: absolute;
+    left: 55%;
+    top: 10%;
+}
+.LexiBlackditals h6 {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: var(--my-color-primary);
+    position: absolute;
+    left: 55%;
+    top: 22%;
+}
+.LexiBlackditals p {
+    text-align: left;
+    width: 50%;
+    position: absolute;
+    left: 55%;
+    top: 38%;
+}
+.contacticon {
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    color: var(--my-color-primary);
+    padding-left: 0px;
+}
+.contacticon i {
+    padding-left: 15px;
+}
+
+.KevinWidagdo {
+    position: absolute;
+    top: 66%;
+    left: 52%;
+    width: 40%;
+    height: 23%;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+}
+.KevinWidagdo img {
+    background-image: radial-gradient(at center center, #5CD2B9 0%, #02010100 40%);
+    position: absolute;
+    bottom: 1px;
+}
+.KevinWidagdoditals {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.KevinWidagdoditals h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: var(--my-color-white);
+    position: absolute;
+    left: 55%;
+    top: 10%;
+}
+.KevinWidagdoditals h6 {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: var(--my-color-primary);
+    position: absolute;
+    left: 55%;
+    top: 22%;
+}
+.KevinWidagdoditals p {
+    text-align: left;
+    width: 50%;
+    position: absolute;
+    left: 55%;
+    top: 38%;
+}
+.contacticon {
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    color: var(--my-color-primary);
+    padding-left: 0px;
+}
+.contacticon i {
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+.PORTFOLIO{
+    background-color: var(--my-background-color);
+    height: auto;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.PORTFOLIOh5 {
+    width: 100%;
+    height: 40px;
+    color: var(--my-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.Latest {
+    width: 100%;
+    height: 100px;
+    color: var(--my-color-white);
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 1em;
+}
+.Latest span {
+    color: var(--my-color-primary);
+}
+.hr6 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 7.5%;
+    position: absolute;
+    top: 13%;
+    left: 46%;
+    height: 3px;
+}
+.PORTFOLIOditals{
+    color: var(--my-color-text);
+    width: 60%;
+    height: 100px;
+    text-align: center;
+}
+.LatestWorkimgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+    background-color: var(--my-background-color);
+}
+.LatestWorkimgs img {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.TESTIMONIALS {
+    background-image: url(/imagess\ 4/adadad.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 6em;
+    padding-block-end: 6em;
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+}
+.TESTIMONIALSditals h5{
+    color: var(--my-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+.TESTIMONIALSditals h3 {
+    color: var(--my-color-white);
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 1em;
+    display: flex;
+    padding-bottom: 40px;
+}
+.TESTIMONIALSditals h3 div {
+    color: var(--my-color-primary);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hr7 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 7.5%;
+    position: absolute;
+    top: 41%;
+    left: 9%;
+    height: 3px;
+}
+.TESTIMONIALSditalp {
+    color: var(--my-color-text);
+    margin-bottom: 20px;
+    width: 50%;
+    line-height: 2em;
+}
+.VIEWALLTESTIMONIALS {
+    color: var(--my-color-white);
+    background-color: var(--my-color-primary);
+    font-size: 18px;
+    font-weight: 500;
+    width: 22.5%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.VIEWALLTESTIMONIALS p {
+    padding: 20px;
+}
+.adminsmith {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(66, 66, 66, 0.568) ;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 22%;
+    left: 51%;
+}
+.adminsmithditals {
+    color: var(--my-color-text);
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 35px;
+    line-height: 2em;
+    width: 95%;
+    font-weight: 600;
+}
+.adminsmithicon {
+    display: flex;
+    justify-content: space-between;
+
+}
+.adminsmithimg {
+    display: flex;
+    margin-bottom: 20px;
+}
+.adminsmithimg img {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.adminsmithimg div h3{
+    color: var(--my-color-white);
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+.adminsmithimg div p{
+    color: var(--my-color-primary);
+    margin-left: 20px;
+}
+.adminsmith i {
+    color: var(--my-color-primary);
+    font-size: 75px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+.OURBLOGsec {
+    background-color: var(--my-background-color);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+    position: relative;
+}
+.OURBLOG h5 {
+    color: var(--my-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.OURBLOG h3 {
+    color: var(--my-color-white);
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 1em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.News {
+    color: var(--my-color-primary);
+    padding-left: 10px;
+}
+.OURBLOGsecpp {
+    color: var(--my-color-text);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.OURBLOGsecpp p {
+    max-width: 70%;
+    line-height: 2em;
+}
+.OURBLOGs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.OURBLOGditals1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #5cd2b949;
+    height: 100%;
+    width: 32%;
+}
+.OURBLOGditals1 img {
+    width: 95%;
+    height: 40%;
+    margin: 10px;
+}
+.OURBLOGditals1 h3 {
+    direction: ltr;
+    text-align: left;  
+    margin: 10px; 
+    color: var(--my-color-primary);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+.OURBLOGditals1 {
+    color: var(--my-color-text);
+    display: flex;
+    text-align: left;
+}
+.OURBLOGditals1 p {
+    max-width: 90%;
+    line-height: 2em;
+    margin: 10px;
+    font-weight: 600;
+}
+.OURBLOGditals1icon {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.date {
+    display: flex;
+    flex-direction: row;
+}
+.date i {
+    color: var(--my-color-text);
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.files {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.files i {
+    color: var(--my-color-text);
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.files p {
+    color: var(--my-color-primary);
+}
+.hr8 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 7.5%;
+    position: absolute;
+    top: 23%;
+    left: 46%;
+    height: 3px;
+}
+
+
+
+
+
+
+
+
+
+.TESTIMONIALS-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    padding: 100px;
+    background-color: var(--my-color-secondary);
+}
+.FORMS {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+.fooorm {
+    display: flex;
+    flex-direction: column;
+    color: var(--my-color-primary);
+    border: 1px solid #4bad7c;
+    padding: 30px;
+}
+.fooorm label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin: 0px 0px 10px 0px;
+}
+.fooorm input {
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin: 0px 0px 10px 0px;
+    color: var(--my-color-white);
+    border: 1px solid #4bad7c;
+    background-color: #151515;
+    width: 490PX;
+}
+.fooorm textarea {
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin: 0px 0px 20px 0px;
+    color: var(--my-color-text);
+    border: 1px solid #4bad7c;
+    background-color: #151515;
+    width: 490PX;
+    height: 190px;
+}
+.fooorm button {
+    padding: 15px 15px 15px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8em;
+    margin: 0px 0px 0px 0px;
+    color: var(--my-color-white);
+    border: 2px solid #02010100;
+    border-radius: 4px;
+    background-color: var(--my-color-primary);
+    width: 490PX;
+}
+.TESTI {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+
+    text-align: left;
+}
+.TESTIdata h5 {
+    font-size: 18px;
+    color: var(--my-color-primary);
+    font-weight: 600;
+    letter-spacing: 4px;
+    width: 530px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.TESTIdata h3 {
+    font-size: 55px;
+    color: var(--my-color-white);
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding-left: 20px;
+    display: flex;
+}
+.Touch {
+    color: var(--my-color-primary);
+    padding-left: 10px;
+}
+.hr9 {
+    background-color:#00ff80;
+    filter: brightness(100%);
+    width: 15%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    height: 3px;
+}
+.TESTIpp {
+    width: 530px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: var(--my-color-text);
+    line-height: 2em;
+    font-weight: 400;
+}
+.TESTI-icon {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.TESTI-icon-ditals{
+    display: flex;
+    flex-direction: column;
+}
+.TESTI-icon i {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--my-color-primary);
+}
+.TESTI-icon-ditals h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: var(--my-color-white);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.TESTI-icon-ditals p {
+    font-family: "Poppins", Sans-serif;
+    color: var(--my-color-primary);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+
+
+
+footer {
+    background-color: var(--my-background-color);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    color: var(--my-color-primary);
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+    font-weight: bold;
+}
+footer ul li {
+    padding-left:30px ;
+    padding-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer p {
+    color: var(--my-color-white);
+    line-height: 1.5em;
+    font-weight: 600;
+    max-width: ;width: 45%;
+    padding-bottom: 40px;
+}
+footer i {
+    color: var(--my-color-primary);
+    padding: 20px;
+    font-size: 20px;
+}
+footer h6 {
+    font-size: 15px;
+    color: var(--my-color-text);
+    font-weight: 400;
+    padding-top: 80px;
+}
